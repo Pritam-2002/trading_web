@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link"
 import { ArrowRight, BarChart3, ChevronRight, Clock, Code2, Globe, LineChart, Lock, Zap } from "lucide-react"
 
@@ -14,16 +15,16 @@ export default function Home() {
             <span>TradePro</span>
           </div>
           <nav className="hidden md:flex gap-6">
-            <Link href="#" className="text-sm font-medium hover:text-primary">
+            {/* <Link href="#" className="text-sm font-medium hover:text-primary">
               Features
-            </Link>
+            </Link> */}
 
-            <Link href="https://docs.google.com/document/d/17nNOmAHACi07pvzpRl-2eDXqkxb-_WaFEwSN4OXVVko/edit?usp=sharing" className="text-sm font-medium hover:text-primary">
+            <Link href="https://docs.google.com/document/d/17nNOmAHACi07pvzpRl-2eDXqkxb-_WaFEwSN4OXVVko/edit?usp=sharing" className="text-sm font-medium hover:text-primary bg-slate-500 rounded-lg p-3">
               Documentation
             </Link>
-            <Link href="#" className="text-sm font-medium hover:text-primary">
+            {/* <Link href="#" className="text-sm font-medium hover:text-primary">
               Students saying
-            </Link>
+            </Link> */}
           </nav>
           {/* <div className="flex items-center gap-4">
             <Link href="#" className="text-sm font-medium hover:text-primary hidden md:block">
@@ -47,11 +48,13 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button size="lg">
+                  <Button
+                    size="lg"
+                    onClick={() => window.open("https://wa.me/9073217050?text=Hello, I want to enroll.", "_blank")}
+                  >
                     Contact now to enroll
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-
                 </div>
               </div>
               <div className="mx-auto w-full max-w-[600px] lg:max-w-none">
@@ -336,7 +339,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
 
-                <Button size="lg" variant="secondary">
+                <Button size="lg" variant="secondary" onClick={() => window.open("https://wa.me/9073217050?text=Hello, I want to enroll.", "_blank")}>
                   Contact Us
                 </Button>
               </div>
@@ -354,13 +357,8 @@ export default function Home() {
             © 2023 TradePro. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
-            <Link href="#" className="text-sm font-medium hover:text-primary">
-              Terms
-            </Link>
-            <Link href="#" className="text-sm font-medium hover:text-primary">
-              Privacy
-            </Link>
-            <Link href="#" className="text-sm font-medium hover:text-primary">
+
+            <Link href="#" className="text-sm font-medium hover:text-primary" >
               Contact
             </Link>
           </div>
