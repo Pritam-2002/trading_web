@@ -17,9 +17,7 @@ export default function Home() {
             <Link href="#" className="text-sm font-medium hover:text-primary">
               Features
             </Link>
-            <Link href="#" className="text-sm font-medium hover:text-primary">
-              Pricing
-            </Link>
+
             <Link href="#" className="text-sm font-medium hover:text-primary">
               Documentation
             </Link>
@@ -42,26 +40,26 @@ export default function Home() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Advanced Trading Platform for Modern Investors
+                    Trading Practice & Learning Platform.
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    Real-time data, powerful charts, and advanced analytics to help you make better trading decisions.
+                    Real-time data, powerful charts, and advanced analytics to help you make better trading Practice.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button size="lg">
-                    Start Trading Now
+                    Start Learning Now
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                   <Button size="lg" variant="outline">
-                    View Demo
+                    Contact Us
                   </Button>
                 </div>
               </div>
               <div className="mx-auto w-full max-w-[600px] lg:max-w-none">
                 <div className="aspect-video overflow-hidden rounded-xl border bg-background shadow-xl">
                   <img
-                    src="https://images.pexels.com/photos/7567565/pexels-photo-7567565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src="https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="Trading platform dashboard"
                     className="object-cover w-full h-full"
                   />
@@ -76,7 +74,7 @@ export default function Home() {
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Key Features</div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                  Everything you need for successful trading
+                  Everything you need for Learning Trade
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Our platform combines powerful tools with an intuitive interface to give you the edge in any market.
@@ -141,7 +139,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        {/* <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -258,15 +256,15 @@ export default function Home() {
               </Card>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Testimonials</div>
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Trusted by traders worldwide</h2>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Trusted by Students worldwide</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  See what our users have to say about their experience with our platform.
+                  See what our Students have to say about their experience with our platform.
                 </p>
               </div>
             </div>
@@ -281,7 +279,7 @@ export default function Home() {
                     /> */}
                     <div>
                       <h3 className="font-bold">Pritam Mukherjee</h3>
-                      <p className="text-sm text-muted-foreground">Day Trader</p>
+                      <p className="text-sm text-muted-foreground">Student</p>
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
@@ -300,11 +298,11 @@ export default function Home() {
                     /> */}
                     <div>
                       <h3 className="font-bold">Farhan </h3>
-                      <p className="text-sm text-muted-foreground">Portfolio Manager</p>
+                      <p className="text-sm text-muted-foreground">Student</p>
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    "The API integration allows us to build custom solutions for our clients. The data quality and
+                    "The API integration allows us to build custom solutions for our Trades. The data quality and
                     reliability are unmatched in the industry."
                   </p>
                 </CardContent>
@@ -315,12 +313,12 @@ export default function Home() {
 
                     <div>
                       <h3 className="font-bold">Moumita Singh</h3>
-                      <p className="text-sm text-muted-foreground">Crypto Investor</p>
+                      <p className="text-sm text-muted-foreground">Student</p>
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    "As someone who trades across multiple markets, having everything in one platform has saved me
-                    countless hours and improved my results."
+                    "As someone who started learning to trade now, having everything in one platform has saved me
+                    countless hours and improved my Learning."
                   </p>
                 </CardContent>
               </Card>
@@ -335,15 +333,13 @@ export default function Home() {
                   Ready to elevate your trading?
                 </h2>
                 <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Join thousands of successful traders who have already made the switch.
+                  Join Our Course who have already made the switch.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
+
                 <Button size="lg" variant="secondary">
-                  Start Trading Now
-                </Button>
-                <Button size="lg" variant="secondary">
-                  Schedule a Demo
+                  Contact Us
                 </Button>
               </div>
             </div>
