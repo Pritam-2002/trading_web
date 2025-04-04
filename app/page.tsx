@@ -18,11 +18,11 @@ export default function Home() {
               Features
             </Link>
 
-            <Link href="#" className="text-sm font-medium hover:text-primary">
+            <Link href="https://docs.google.com/document/d/17nNOmAHACi07pvzpRl-2eDXqkxb-_WaFEwSN4OXVVko/edit?usp=sharing" className="text-sm font-medium hover:text-primary">
               Documentation
             </Link>
             <Link href="#" className="text-sm font-medium hover:text-primary">
-              Blog
+              Students saying
             </Link>
           </nav>
           {/* <div className="flex items-center gap-4">
@@ -48,12 +48,10 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button size="lg">
-                    Start Learning Now
+                    Contact now to enroll
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                  <Button size="lg" variant="outline">
-                    Contact Us
-                  </Button>
+
                 </div>
               </div>
               <div className="mx-auto w-full max-w-[600px] lg:max-w-none">
