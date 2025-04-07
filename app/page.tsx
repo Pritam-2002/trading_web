@@ -69,77 +69,78 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Key Features</div>
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                  Everything you need for Learning Trade
-                </h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Our platform combines powerful tools with an intuitive interface to give you the edge in any market.
-                </p>
-              </div>
-            </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-              <div className="grid gap-4">
-                <LineChart className="h-10 w-10 text-primary" />
-                <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Advanced Charts</h3>
-                  <p className="text-muted-foreground">
-                    Multiple chart types with over 100 indicators and drawing tools for technical analysis.
-                  </p>
-                </div>
-              </div>
-              <div className="grid gap-4">
-                <Zap className="h-10 w-10 text-primary" />
-                <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Real-time Data</h3>
-                  <p className="text-muted-foreground">
-                    Lightning-fast market data with millisecond updates across all global markets.
-                  </p>
-                </div>
-              </div>
-              <div className="grid gap-4">
-                <Globe className="h-10 w-10 text-primary" />
-                <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Global Markets</h3>
-                  <p className="text-muted-foreground">
-                    Access to stocks, forex, cryptocurrencies, commodities, and more from a single platform.
-                  </p>
-                </div>
-              </div>
-              <div className="grid gap-4">
-                <Code2 className="h-10 w-10 text-primary" />
-                <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Trading API</h3>
-                  <p className="text-muted-foreground">
-                    Build custom indicators and automated trading strategies with our powerful API.
-                  </p>
-                </div>
-              </div>
-              <div className="grid gap-4">
-                <Clock className="h-10 w-10 text-primary" />
-                <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Historical Data</h3>
-                  <p className="text-muted-foreground">
-                    Access decades of historical data for backtesting and strategy development.
-                  </p>
-                </div>
-              </div>
-              <div className="grid gap-4">
-                <Lock className="h-10 w-10 text-primary" />
-                <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Secure Trading</h3>
-                  <p className="text-muted-foreground">
-                    Enterprise-grade security with two-factor authentication and encrypted connections.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+       <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
+  <div className="container px-4 md:px-6">
+    <div className="flex flex-col items-center justify-center space-y-4 text-center">
+      <div className="space-y-2">
+        <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Key Features</div>
+        <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+          Everything You Need to Learn Trading
+        </h2>
+        <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          Designed for students and beginners, our platform simplifies the complexities of trading with hands-on tools, resources, and expert guidance.
+        </p>
+      </div>
+    </div>
+    <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
+      <div className="grid gap-4">
+        <LineChart className="h-10 w-10 text-primary" />
+        <div className="space-y-2">
+          <h3 className="text-xl font-bold">Interactive Charts</h3>
+          <p className="text-muted-foreground">
+            Learn technical analysis with easy-to-understand charts and real-world examples.
+          </p>
+        </div>
+      </div>
+      <div className="grid gap-4">
+        <Zap className="h-10 w-10 text-primary" />
+        <div className="space-y-2">
+          <h3 className="text-xl font-bold">Live Market Simulations</h3>
+          <p className="text-muted-foreground">
+            Practice trading in real-time without any financial risk using our demo accounts.
+          </p>
+        </div>
+      </div>
+      <div className="grid gap-4">
+        <Globe className="h-10 w-10 text-primary" />
+        <div className="space-y-2">
+          <h3 className="text-xl font-bold">Global Market Insights</h3>
+          <p className="text-muted-foreground">
+            Learn how different markets work—stocks, forex, crypto, and more—all in one place.
+          </p>
+        </div>
+      </div>
+      <div className="grid gap-4">
+        <Code2 className="h-10 w-10 text-primary" />
+        <div className="space-y-2">
+          <h3 className="text-xl font-bold">Custom Learning Paths</h3>
+          <p className="text-muted-foreground">
+            Choose from beginner to advanced courses tailored to your trading goals.
+          </p>
+        </div>
+      </div>
+      <div className="grid gap-4">
+        <Clock className="h-10 w-10 text-primary" />
+        <div className="space-y-2">
+          <h3 className="text-xl font-bold">On-Demand Lessons</h3>
+          <p className="text-muted-foreground">
+            Access bite-sized lessons and recorded webinars anytime, anywhere.
+          </p>
+        </div>
+      </div>
+      <div className="grid gap-4">
+        <Lock className="h-10 w-10 text-primary" />
+        <div className="space-y-2">
+          <h3 className="text-xl font-bold">Safe Learning Environment</h3>
+          <p className="text-muted-foreground">
+            Learn without pressure—no real money involved, just pure educational focus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
         {/* <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
